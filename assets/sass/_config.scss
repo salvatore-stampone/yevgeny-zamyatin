@@ -1,0 +1,21 @@
+$light-color: #f4f4f4;
+$dark-color: #432918;
+$light-primary-color: lighten(#c1916b, 8);
+$primary-color: #c1916b;
+$dark-primary-color: darken(#c1916b, 10);
+// $secondary-color: #69ce73;
+
+// $typewriter-speed: 3.75s;
+
+@function set-text-color($color) {
+    @if (lightness($color) > 70) {
+        @return $dark-color;
+    } @else {
+        @return $light-color;
+    }
+}
+
+@mixin set-background-color($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}

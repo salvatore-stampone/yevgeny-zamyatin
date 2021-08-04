@@ -1,0 +1,26 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    nav {
+        li {
+            font-size: 24px;
+        }
+    }
+    .logo {
+        font-size: 2.25em;
+    }
+    .nav-toggle-label {
+        font-size: 1.5em;
+    }
+    .nav-toggle:checked ~ label {
+        font-size: 1.75em;
+    }
+    .title {
+        font-size: 2.25em;
+        padding-top: 0.5em;
+    }
+    .subtitle {
+        font-size: 1.75em;
+    }
+    .homepage-caption {
+        font-size: 1.25em;
+    }
+}
