@@ -17,9 +17,7 @@ body {
 
 .bio-container {
   padding-top: 5em;
-  margin-inline: auto;
-  -webkit-margin-after: 15%;
-          margin-block-end: 15%;
+  margin: 0 auto 15% auto;
   width: 75%;
   max-width: 50ch;
 }
@@ -31,18 +29,15 @@ body {
 
 .subtitle {
   color: #f4f4f4;
-  -webkit-margin-before: 0.5em;
-          margin-block-start: 0.5em;
-  -webkit-margin-after: 0.25em;
-          margin-block-end: 0.25em;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 p {
-  -webkit-margin-after: 0.75em;
-          margin-block-end: 0.75em;
+  text-align: left;
+  margin-bottom: 0.75em;
 }
 
 p:last-of-type {
-  -webkit-margin-after: 15vh;
-          margin-block-end: 15vh;
+  margin-bottom: 15vh;
 }

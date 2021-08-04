@@ -25,15 +25,14 @@ body {
 
 .works-container {
     padding-top: 5em;
-    margin-inline: auto;
-    margin-block-end: 15%;
+    margin: 0 auto 15% auto;
     text-align: center;
     width: 75%;
     max-width: 50ch;
 }
 
 .book-cover {
-    margin-block: 1em;
+    margin: 1em 0;
     height: 240px;
 
     &:last-of-type {
